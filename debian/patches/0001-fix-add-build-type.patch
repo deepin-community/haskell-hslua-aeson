@@ -1,0 +1,27 @@
+From f3b90110c247362606b6bd86e80c96324b1ed158 Mon Sep 17 00:00:00 2001
+From: bluesky <chenchongbiao@deepin.org>
+Date: Mon, 16 Oct 2023 13:06:00 +0800
+Subject: [PATCH] fix: add build-type
+
+add build-type: Simple to hslua-aeson.cabal
+
+Log: add build-type
+---
+ hslua-aeson.cabal | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/hslua-aeson.cabal b/hslua-aeson.cabal
+index c9b37d1..042fab3 100644
+--- a/hslua-aeson.cabal
++++ b/hslua-aeson.cabal
+@@ -11,6 +11,7 @@ author:              Albert Krewinkel
+ maintainer:          Albert Krewinkel <albert+hslua@zeitkraut.de>
+ copyright:           © 2017–2021 Albert Krewinkel
+ category:            Foreign
++build-type:          Simple
+ extra-source-files:  README.md
+                    , CHANGELOG.md
+ tested-with:         GHC == 8.0.2
+-- 
+2.33.1
+
